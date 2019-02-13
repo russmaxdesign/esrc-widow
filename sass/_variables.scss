@@ -1,0 +1,81 @@
+//
+// variables
+// --------------------------------------------------
+
+
+// colors
+
+$black: #000;
+$white: #fff;
+$gray-light: #e0e0e0;
+$gray-mid: #a3a7a9;
+$gray: #565458;
+$gray-dark: #434146;
+
+
+// primary colors
+
+$primary: #c3cc59;
+$secondary: #7e8936;
+$font-color: $gray;
+$heading-color: $secondary;
+$border-color: $gray-mid;
+
+
+// link colors
+
+$link-color: #204182;
+$visited-color: #1b3773;
+$hover-color: $secondary;
+$focus-color: $black;
+$active-color: #811517;
+
+
+// button colors
+
+$btn-color: $white;
+$btn-bg-color: $link-color;
+$btn-hover-color: $white;
+$btn-hover-bg-color: $hover-color;
+$btn-focus-color: $white;
+$btn-focus-bg-color: $focus-color;
+$btn-active-color: $white;
+$btn-active-bg-color: $active-color;
+
+
+// nav colors
+
+$nav-color: $black;
+$nav-current-color: $secondary;
+$nav-bg-color: $primary;
+$nav-focus-color: $white;
+$nav-focus-bg-color: $black;
+$nav-hover-color: $white;
+$nav-hover-bg-color: $secondary;
+$nav-active-color: $white;
+$nav-active-bg-color: $active-color;
+
+
+// fonts
+
+$font: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+$font-feature: 'Raleway', Helvetica, Arial, Geneva, sans-serif;
+
+
+// layout colors
+
+$header-heading-color: $white;
+$header-bg-color: $gray;
+$header-border-color: $secondary;
+$content-bg-color: $white;
+$survey-bg-color: $gray-light;
+$credits-bg-color: $gray;
+$footer-bg-color: $black;
+
+
+// background images
+
+$bg-bullet-img: url("../img/bullet.png") no-repeat 0 .5em;
+$bg-content: $white;
+$bg-survey: $survey-bg-color;
+$bg-credits: $credits-bg-color url("../img/bg-credits.jpg") repeat-x;

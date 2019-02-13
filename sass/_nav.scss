@@ -1,0 +1,149 @@
+//
+// nav
+// --------------------------------------------------
+
+
+// nav
+
+.nav {
+  overflow: hidden;
+  zoom: 1;
+
+  _overflow: visible;
+}
+
+.nav-container {
+  background: $nav-bg-color;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+.nav li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.nav a {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 18px 18px 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: $nav-color;
+  background: $nav-bg-color;
+}
+
+.nav a:focus {
+  color: $nav-focus-color;
+  background: $nav-focus-bg-color;
+}
+
+.nav a:hover {
+  color: $nav-hover-color;
+  background: $nav-hover-bg-color;
+}
+
+.nav a:active {
+  color: $nav-active-color;
+  background: $nav-active-bg-color;
+}
+
+
+// current
+
+#home .home a,
+#introduction .introduction a,
+#essay .essay a,
+#women .women a,
+#themes .themes a,
+#resources .resources a,
+#gallery .gallery a {
+  color: $nav-hover-color;
+  background: $nav-hover-bg-color;
+}
+
+#home .home a:focus,
+#introduction .introduction a:focus,
+#essay .essay a:focus,
+#women .women a:focus,
+#themes .themes a:focus,
+#resources .resources a:focus,
+#gallery .gallery a:focus {
+  color: $nav-focus-color;
+  background: $nav-focus-bg-color;
+}
+
+#home .home a:active,
+#introduction .introduction a:active,
+#essay .essay a:active,
+#women .women a:active,
+#themes .themes a:active,
+#resources .resources a:active,
+#gallery .gallery a:active {
+  color: $nav-active-color;
+  background: $nav-active-bg-color;
+}
+
+
+// mobile
+
+.nav a.mobile_handle {
+  display: block;
+  border-bottom: none;
+  padding-left: 40px !important;
+  background: $primary url('../img/icon-cross.png') no-repeat 20px 22px;
+}
+
+.nav a.mobile_handle {
+  color: $black;
+}
+
+.nav a.mobile_handle:focus {
+  outline: thin dotted;
+  color: $secondary;
+  background: $black url('../img/icon-cross.png') no-repeat 20px -77px;
+}
+
+.nav a.mobile_handle:hover {
+  color: $white;
+  background: $secondary url('../img/icon-cross.png') no-repeat 20px -77px;
+}
+
+.nav a.mobile_handle:active {
+  color: $white;
+  background: $primary url('../img/icon-cross.png') no-repeat 20px -77px;
+}
+
+.secondary a.mobile_handle {
+  display: block;
+  border-bottom: none;
+  padding-left: 20px !important;
+  background: url('../img/icon-cross.png') no-repeat 0 -194px;
+  font-weight: bold;
+}
+
+
+// wide screen
+
+@media only screen and (min-width:750px) {
+  a.mobile_handle {
+    display: none !important;
+  }
+
+  .nav a {
+    float: left;
+    border-bottom: none;
+    background: url('../img/bg-nav.png') no-repeat 0 100%;
+  }
+}
