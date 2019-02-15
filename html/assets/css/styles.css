@@ -325,7 +325,8 @@ blockquote {
   color: #565458;
   font-family: "Raleway", Helvetica, Arial, Geneva, sans-serif;
   font-size: 1em;
-  font-style: italic; }
+  font-style: italic;
+  line-height: 1.7; }
 
 img {
   display: block;
@@ -746,7 +747,7 @@ a:active {
   .gutter {
     margin-right: 6%; }
   .center {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 40px !important; }
   .aside,
@@ -789,7 +790,7 @@ a:active {
 
 .caption {
   font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-  font-style: normal; }
+  font-style: italic; }
 
 .details {
   border-bottom: 0 !important;

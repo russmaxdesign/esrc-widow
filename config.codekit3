@@ -310,6 +310,20 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/html/bridges.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/html/bridges.html",
+		"oF": 0
+		},
+	"/html/essays.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/html/essays.html",
+		"oF": 0
+		},
 	"/html/gallery.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -408,6 +422,20 @@
 		"oAP": "/kit/_survey.html",
 		"oF": 0
 		},
+	"/kit/bridges.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/html/bridges.html",
+		"oF": 2
+		},
+	"/kit/essays.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/html/essays.html",
+		"oF": 2
+		},
 	"/kit/gallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -477,6 +505,17 @@
 		"oA": 0,
 		"oAP": "/masters/colors.ai",
 		"oF": 0
+		},
+	"/masters/ex-119-widow.jpg": {
+		"ft": 16384,
+		"iS": 10199,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/masters/ex-119-widow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/masters/font-size.numbers": {
 		"cB": 0,
