@@ -780,7 +780,8 @@ a:active {
 .status {
   font-weight: bold; }
 
-.summary {
+.summary,
+.separator {
   border-bottom: 1px solid #a3a7a9;
   margin: 1em 0 2em;
   padding: 0 0 1em; }
